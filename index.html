@@ -1,50 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dice Roll</title>
+        <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <body>
+        <div class="container">
+            <!-- header -->
+            <h1>Roll Away!</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice Roll</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-</head>
+            <!-- two dices -->
+            <div class="table">
+                <div class="dice">
+                    <p class="nameTag" id="p1name">Player 1</p>
+                    <img id="img1" src="./images/dice1.png">
+                </div>
 
-<body>
-    <div class="container">
-        <!-- header -->
-        <h1>Roll Away!</h1>
-
-        <!-- two dices -->
-        <div class="table">
-            <div class="dice">
-                <p class="nameTag" id="p1name">Player 1</p>
-                <img id="img1" src="./images/dice1.png">
+                <div class="dice">
+                    <p class="nameTag" id="p2name">Player 2</p>
+                    <img id="img2" src="./images/dice1.png">
+                </div>
             </div>
 
-            <div class="dice">
-                <p class="nameTag" id="p2name">Player 2</p>
-                <img id="img2" src="./images/dice1.png">
+
+            <!-- roll button -->
+            <button>Click to Roll</button>
+
+            <!-- change names -->
+            <p>Change Player Names Below</p>
+            <div>
+                <input type="text" id="p1input">
+                <input type="text" id="p2input">
             </div>
         </div>
 
+        <script src="index.js"></script>
+    </body>
 
-        <!-- roll button -->
-        <button>Click to Roll</button>
-
-        <!-- change names -->
-        <p>Change Player Names Below</p>
-        <div>
-            <input type="text" id="p1input">
-            <input type="text" id="p2input">
-        </div>
-    </div>
-
-    <script src="index.js"></script>
-</body>
-
-<footer>
-    settle arguments with a classic dice roll :D
-</footer>
+    <footer>
+        settle arguments with a classic dice roll :D
+    </footer>
 
 </html>

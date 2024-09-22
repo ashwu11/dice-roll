@@ -1,4 +1,4 @@
-const header = document.getElementsByTagName("h1")[0];
+const header = document.querySelector("h1");
 const dice1 = document.getElementById("img1");
 const dice2 = document.getElementById("img2");
 const button = document.getElementsByTagName("button")[0];
