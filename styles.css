@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    margin: 6rem;
+    margin: 6%;
     font-family: "Englebert", cursive;
     font-size: 6rem;
     color: #5fa3dd;
@@ -27,10 +27,56 @@ h1 {
 
 p {
     font-family: "Englebert", cursive;
+    font-size: 2rem;
+    color: #5fa3dd;
+}
+
+.nameTag {
     font-size: 3rem;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    width: 75%;
+}
+
+button {
+    border-radius: 1rem;
+    width: 13rem;
+    height: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    background-color: #f6f8f9;
+    text-align: center;
+    font-family: "Englebert", cursive;
+    font-size: 2rem;
+    color: #5fa3dd;
+}
+
+button:hover {
+    background-color: rgb(209, 218, 215);
+  }
+
+input {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
+
+    font-family: "Englebert", cursive;
+    font-size: 2rem;
     color: #5fa3dd;
 }
 
 footer {
+    margin-top: 5%;
+    margin-bottom: 3rem;
     text-align: center;
+    font-family: "Englebert", cursive;
+    color: #5fa3dd;
 }
