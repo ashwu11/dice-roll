@@ -23,6 +23,8 @@ h1 {
     font-family: "Englebert", cursive;
     font-size: 6rem;
     color: #5fa3dd;
+    transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 p {
